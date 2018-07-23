@@ -39,6 +39,5 @@ $('.owl-carousel-one-item').owlCarousel({
             items:1
         }
     }
-	});
-
+});
 
