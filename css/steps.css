@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:800");
+.steps {
+  max-width: 100%;
+}
+.steps .card-body {
+  padding: 0;
+}
+.steps .card-body .card-title .h3 {
+  color: #0094ff;
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 800;
+}
+.steps .card-body .card-text .h4 {
+  font-size: 24px;
+  font-weight: 300;
+}
+.steps .card-body .card-text p {
+  font-size: 14px;
+}
+
+.steps2 {
+  background: url(../img/mountains-bg.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.steps2 .card-body .card-title .h3 {
+  color: #fff;
+}
+.steps2 .card-body .card-text .h4, .steps2 .card-body .card-text p {
+  color: #fff;
+}
+.steps2 .card-body .card-text p {
+  opacity: 0.6;
+}
+
+.steps-boxed {
+  -webkit-transition: .5s;
+  transition: .5s;
+  max-width: 100%;
+}
+.steps-boxed:hover {
+  -webkit-box-shadow: 0px 8px 20px #e8e8e8;
+          box-shadow: 0px 8px 20px #e8e8e8;
+  border-radius: 11px !important;
+}
+.steps-boxed .card {
+  border: 1px solid rgba(0, 0, 0, 0.125) !important;
+  border-radius: 11px;
+}
+.steps-boxed .card .card-header {
+  background-color: #0094ff;
+}
+.steps-boxed .card .card-header .h3 {
+  color: #fff;
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 800;
+  text-align: center;
+  margin-bottom: 0;
+}
+.steps-boxed .card .card-header:first-child {
+  border-top-left-radius: 11px;
+  border-top-right-radius: 11px;
+}
+.steps-boxed .card .card-text {
+  padding: 0 24px;
+  text-align: center;
+}
+.steps-boxed .card .card-text .h4 {
+  color: #222;
+  font-size: 24px;
+  font-weight: 300;
+}
+.steps-boxed .card .card-text p {
+  font-size: 14px;
+  margin-bottom: 36px;
+}
+
+.steps-boxed-transparent:hover {
+  -webkit-box-shadow: 0 0 0 0 !important;
+          box-shadow: 0 0 0 0 !important;
+  border-radius: 0 !important;
+}
+.steps-boxed-transparent .card {
+  border: 1px solid rgba(255, 255, 255, 0.25) !important;
+  background-color: rgba(255, 255, 255, 0.05);
+}
+.steps-boxed-transparent .card .card-header {
+  background-color: rgba(255, 255, 255, 0.25);
+}
+.steps-boxed-transparent .card .card-text .h4 {
+  color: #fff;
+}
+.steps-boxed-transparent .card .card-text p {
+  color: #fff;
+  opacity: 0.6;
+}
+
+.steps-boxed-absolute {
+  position: relative;
+}
+.steps-boxed-absolute:hover {
+  -webkit-box-shadow: 0px 8px 20px #e8e8e8;
+          box-shadow: 0px 8px 20px #e8e8e8;
+  border-radius: 11px !important;
+}
+.steps-boxed-absolute .card .card-header {
+  position: absolute;
+  top: -19px;
+  left: 10px;
+  z-index: 100;
+  background-color: transparent;
+  border-bottom: 0;
+  padding: 0;
+}
+.steps-boxed-absolute .card .card-header .h3 {
+  color: #0094ff;
+}
+
+.steps-boxed-absolute-transparent {
+  position: relative;
+}
+.steps-boxed-absolute-transparent:hover {
+  -webkit-box-shadow: 0 0 0 0 !important;
+          box-shadow: 0 0 0 0 !important;
+  border-radius: 0 !important;
+}
+.steps-boxed-absolute-transparent .card {
+  border: 1px solid rgba(255, 255, 255, 0.25) !important;
+  background-color: rgba(255, 255, 255, 0.05);
+}
+.steps-boxed-absolute-transparent .card .card-header {
+  background-color: transparent !important;
+}
+.steps-boxed-absolute-transparent .card .card-header .h3 {
+  color: #fff;
+}
+.steps-boxed-absolute-transparent .card .card-text .h4, .steps-boxed-absolute-transparent .card .card-text p {
+  color: #fff;
+}
+.steps-boxed-absolute-transparent .card .card-text p {
+  opacity: 0.6;
+}
+
+/*# sourceMappingURL=steps.css.map */

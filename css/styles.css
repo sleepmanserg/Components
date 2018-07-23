@@ -1,0 +1,17 @@
+@import url(typography.css);
+@import url(icon-boxes.css);
+@import url(team.css);
+@import url(steps.css);
+@import url(image-carousel.css);
+@import url(testimonials.css);
+hr {
+  width: 90%; }
+
+header {
+  width: 100%;
+  height: 400px;
+  background: url(../bg.jpg) no-repeat;
+  background-size: cover;
+  background-position: center; }
+
+/*# sourceMappingURL=styles.css.map */

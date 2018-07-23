@@ -1,0 +1,60 @@
+.owl-dots {
+  text-align: center;
+  outline: none;
+}
+
+.owl-dot {
+  width: 5px !important;
+  height: 5px !important;
+  border-radius: 100% !important;
+  background-color: rgba(34, 34, 34, 0.25) !important;
+  margin-right: 5px !important;
+  display: inline-flex !important;
+  outline: none !important;
+  transition: background-color .5s;
+  &:hover {
+  background-color: rgba(34, 34, 34, 0.5) !important;
+  }
+}
+
+.owl-dot.active {
+  background: #333 !important;
+  width: 10px !important;
+  height: 10px !important;
+  outline: none !important;
+}
+
+.owl-nav {
+  position: absolute;
+  top: 33%;
+  width: 100%;
+  outline: none;
+  button {
+    width: 60px;
+    height: 60px;
+    background-color: rgba(255, 255, 255, 0.5) !important;
+    border: 1px solid #fff !important;
+    color: #333;
+    position: absolute;
+    text-align: center;
+    line-height: 60px;
+    border-radius: 50%;
+    outline: none;
+    transition: .5s;
+    &:hover {
+      background-color: rgba(255, 255, 255, 0.1) !important; 
+    }
+    .fas {
+      font-size: 26px;
+      color: #fff;
+    }
+  }
+  .owl-prev {
+    outline: none;
+    left: 24px;
+  }
+  .owl-next {
+    right: 24px;
+    outline: none;
+  }
+}
