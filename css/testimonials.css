@@ -76,5 +76,21 @@
 @media screen and (max-width: 480px) {
   .first-testimonial-photo {
     left: 92%; } }
+.testimonials-carousel .card {
+  border: 1px solid #e7e7e7 !important;
+  text-align: center;
+  padding: 20px; }
+  .testimonials-carousel .card .card-title {
+    font-size: 16px;
+    font-weight: 100; }
+    .testimonials-carousel .card .card-title span {
+      font-size: 12px;
+      color: #999999; }
+
+.slick-slider {
+  cursor: pointer; }
+
+.slick-initialized .slick-slide {
+  outline: none; }
 
 /*# sourceMappingURL=testimonials.css.map */

@@ -40,4 +40,3 @@ $('.owl-carousel-one-item').owlCarousel({
         }
     }
 });
-
