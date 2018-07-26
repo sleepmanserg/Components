@@ -74,6 +74,9 @@ ul {
 	}
 }
 .team-cards {
+	.bg-dark {
+		border: none !important;
+	}
 	.card-body {
 		border: 1px solid #e7e7e7;
 		border-bottom-right-radius: 8px;
@@ -100,8 +103,6 @@ ul {
 		}
 	}
 }
-.card {
-	border: none !important;
 	img {
 		border-top-left-radius: 11px;
 		border-top-right-radius: 11px;
@@ -146,34 +147,24 @@ ul {
 			}
 		}
 	}
-}
 
 
 .horizontal-card {
-	.card {
+	.card-header {
+		background-color: transparent;
+		padding: 0;
+		width: 37%;
 		img {
-			border-top-left-radius: 8px;
 			border-top-right-radius: 0;
-			border-bottom-left-radius: 8px;
-			max-width: 120px;
 		}
 	}
-	.card-body {
-		padding: 0;
-		border: 1px solid #e7e7e7;
-		border-top-right-radius: 8px;
-		border-bottom-right-radius: 8px;
-	}
-	.card-title {
-		.h3 {
-			font-size: 20px;
-			font-weight: 300;
-			span {
-				font-size: 14px;
-				color: #999;
-				display: block;
-				font-weight: 400;
-			}
+	.h3 {
+		font-size: 20px;
+		font-weight: 100;
+		span {
+			color: #999;
+			font-size: 14px;
+			display: block;
 		}
 	}
 	.card-text {
@@ -187,13 +178,77 @@ ul {
 					margin-left: 15px;
 					transition: .5s;
 					&:hover {
-						color: #e7e7e7;
+						color: #e4e4e4;
 					}
 				}
 			}
 		}
 	}
 }
+
+@media screen and (max-width: 1200px) {
+	.horizontal-card {
+		.card-block {
+			.h3 {
+				font-size: 18px;
+				span {
+					font-size: 12px;
+				}
+			}
+			.card-text {
+				ul {
+					li {
+						a {
+							font-size: 14px;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 992px) {
+	.horizontal-card {
+		.card-block {
+			margin: 0 auto;
+			text-align: center;
+			.h3 {
+				font-size: 26px;
+				margin: 0 40px 0 40px;
+				span {
+					font-size: 16px;
+				}
+			}
+			p {
+				margin: 0 40px 0 40px;
+			}
+			.card-text {
+				ul {
+					text-align: center;
+					li {
+						a {
+							font-size: 20px;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.horizontal-card {
+		.card-block {
+			margin: 0 auto;
+			text-align: center;
+			.h3 {
+				font-size: 18px;
+			}
+		}
+	}
+}
+
 
 
 

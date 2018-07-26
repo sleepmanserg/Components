@@ -131,29 +131,20 @@ $orange: #FF991B;
 // Icon-boxes horizontal //
 
 .icon-boxes-horizontal {
-	border: 1px solid $grey;
+	border: 1px solid $grey !important;
 	border-radius: 8px;
 	transition: .5s;
 	&:hover {
 		box-shadow: 0px 8px 20px $grey;
 	}
-	img {
-		background-color: $grey;
-		padding: 21px;
+	.h3 {
+		font-size: 16px;
+		font-weight: 400;
 	}
-	.icon-boxes-horizontal-img {
-		.cal {
-			width: 108px;
-		}
-		.circles {
-			width: 112px;
-		}
+	p {
+		font-size: 12px;
 	}
-	.icon-boxes-horizontal-text {
-		p {
-			margin: 0;
-		}
-	}
+
 }
 
 .fancy-box {

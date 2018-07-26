@@ -139,6 +139,27 @@
       right: 35%;
       color: #333; }
 
+#clockdiv {
+  color: #fff;
+  display: inline-block;
+  font-weight: 100;
+  text-align: center;
+  font-size: 36px; }
+
+#clockdiv > div {
+  padding: 10px;
+  color: #333;
+  display: inline-block; }
+
+#clockdiv div > span {
+  padding: 15px;
+  color: #333;
+  display: inline-block; }
+
+.smalltext {
+  padding-top: 5px;
+  font-size: 12px; }
+
 @media screen and (max-width: 1200px) {
   .call-to .call-to-text .h4 {
     font-size: 30px;
@@ -161,6 +182,9 @@
 
   .call-to-oculus .call-to-text {
     text-align: center; }
+
+  .call-to-with-video-second {
+    background-position: 180%; }
 
   .call-to-with-video .card-body p {
     padding-right: 60px;
@@ -187,7 +211,7 @@
     font-size: 50px; }
 
   .call-to-with-video-second {
-    background-size: cover; } }
+    background: transparent; } }
 @media screen and (max-width: 500px) {
   .call-to-with-bg .card-body .h4 {
     font-size: 25px; }

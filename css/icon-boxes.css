@@ -125,7 +125,7 @@
 }
 
 .icon-boxes-horizontal {
-  border: 1px solid #e8e8e8;
+  border: 1px solid #e8e8e8 !important;
   border-radius: 8px;
   -webkit-transition: .5s;
   transition: .5s;
@@ -134,18 +134,12 @@
   -webkit-box-shadow: 0px 8px 20px #e8e8e8;
           box-shadow: 0px 8px 20px #e8e8e8;
 }
-.icon-boxes-horizontal img {
-  background-color: #e8e8e8;
-  padding: 21px;
+.icon-boxes-horizontal .h3 {
+  font-size: 16px;
+  font-weight: 400;
 }
-.icon-boxes-horizontal .icon-boxes-horizontal-img .cal {
-  width: 108px;
-}
-.icon-boxes-horizontal .icon-boxes-horizontal-img .circles {
-  width: 112px;
-}
-.icon-boxes-horizontal .icon-boxes-horizontal-text p {
-  margin: 0;
+.icon-boxes-horizontal p {
+  font-size: 12px;
 }
 
 .fancy-box {

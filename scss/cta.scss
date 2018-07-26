@@ -184,6 +184,33 @@
 	}
 }
 
+// Timer //
+
+#clockdiv{
+	color: #fff;
+	display: inline-block;
+	font-weight: 100;
+	text-align: center;
+	font-size: 36px;
+}
+
+#clockdiv > div{
+	padding: 10px;
+	color: #333;
+	display: inline-block;
+}
+
+#clockdiv div > span{
+	padding: 15px;
+	color: #333;
+	display: inline-block;
+}
+
+.smalltext{
+	padding-top: 5px;
+	font-size: 12px;
+}
+
 
 // Media //
 
@@ -227,7 +254,10 @@
 	.call-to-oculus .call-to-text {
 		text-align: center;
 	}
-
+	
+	.call-to-with-video-second {
+		background-position: 180%;
+	}
 	.call-to-with-video .card-body {
 		p {
 			padding-right: 60px;
@@ -271,7 +301,7 @@
 	}
 
 	.call-to-with-video-second {
-		background-size: cover;
+		background: transparent;
 	}
 }
 

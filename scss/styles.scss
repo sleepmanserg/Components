@@ -5,6 +5,8 @@
 @import url(image-carousel.css);
 @import url(testimonials.css);
 @import url(gallery.css);
+@import url(tabs.css);
+@import url(cta.css);
 
 hr {
 	width: 90%;
@@ -16,4 +18,24 @@ header {
 	background: url(../bg.jpg) no-repeat;
 	background-size: cover;
 	background-position: center;
+}
+
+*::-webkit-input-placeholder {
+    color: #999!important;
+    font-weight: 100;
+}
+*:-moz-placeholder {
+    /* FF 4-18 */
+    color: #999!important;
+    font-weight: 100;
+}
+*::-moz-placeholder {
+    /* FF 19+ */
+    color: #999!important;
+    font-weight: 100;
+}
+*:-ms-input-placeholder {
+    /* IE 10+ */
+    color: #999!important;
+    font-weight: 100;
 }

@@ -57,6 +57,8 @@ ul {
   .card-hover:hover {
     box-shadow: 0px 8px 20px #e8e8e8; }
 
+.team-cards .bg-dark {
+  border: none !important; }
 .team-cards .card-body {
   border: 1px solid #e7e7e7;
   border-bottom-right-radius: 8px;
@@ -75,62 +77,56 @@ ul {
     margin: 0;
     font-size: 14px; }
 
-.card {
-  border: none !important; }
-  .card img {
-    border-top-left-radius: 11px;
-    border-top-right-radius: 11px; }
-  .card .card-img-overlay {
-    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.01) 0%, rgba(0, 0, 0, 0.8) 100%);
-    border-top-left-radius: 11px;
-    border-top-right-radius: 11px;
-    opacity: 0;
-    transition: .5s; }
-    .card .card-img-overlay:hover {
-      opacity: 1; }
-    .card .card-img-overlay ul {
-      padding: 0;
-      margin: 0;
-      position: absolute;
-      top: 90%;
-      left: 54%;
-      transform: translate(-50%, -50%);
-      width: 100%; }
-      .card .card-img-overlay ul li a {
-        display: block;
-        color: #fff;
-        font-size: 16px;
-        border: 1px solid rgba(255, 255, 255, 0.25);
-        border-radius: 50%;
-        box-sizing: border-box;
-        width: 35px;
-        height: 35px;
-        margin-right: 20px;
-        text-align: center;
-        transition: .5s; }
-        .card .card-img-overlay ul li a:hover {
-          background-color: rgba(255, 255, 255, 0.2); }
-        .card .card-img-overlay ul li a i {
-          line-height: 32px; }
+img {
+  border-top-left-radius: 11px;
+  border-top-right-radius: 11px; }
 
-.horizontal-card .card img {
-  border-top-left-radius: 8px;
-  border-top-right-radius: 0;
-  border-bottom-left-radius: 8px;
-  max-width: 120px; }
-.horizontal-card .card-body {
+.card-img-overlay {
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.01) 0%, rgba(0, 0, 0, 0.8) 100%);
+  border-top-left-radius: 11px;
+  border-top-right-radius: 11px;
+  opacity: 0;
+  transition: .5s; }
+  .card-img-overlay:hover {
+    opacity: 1; }
+  .card-img-overlay ul {
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 90%;
+    left: 54%;
+    transform: translate(-50%, -50%);
+    width: 100%; }
+    .card-img-overlay ul li a {
+      display: block;
+      color: #fff;
+      font-size: 16px;
+      border: 1px solid rgba(255, 255, 255, 0.25);
+      border-radius: 50%;
+      box-sizing: border-box;
+      width: 35px;
+      height: 35px;
+      margin-right: 20px;
+      text-align: center;
+      transition: .5s; }
+      .card-img-overlay ul li a:hover {
+        background-color: rgba(255, 255, 255, 0.2); }
+      .card-img-overlay ul li a i {
+        line-height: 32px; }
+
+.horizontal-card .card-header {
+  background-color: transparent;
   padding: 0;
-  border: 1px solid #e7e7e7;
-  border-top-right-radius: 8px;
-  border-bottom-right-radius: 8px; }
-.horizontal-card .card-title .h3 {
+  width: 37%; }
+  .horizontal-card .card-header img {
+    border-top-right-radius: 0; }
+.horizontal-card .h3 {
   font-size: 20px;
-  font-weight: 300; }
-  .horizontal-card .card-title .h3 span {
-    font-size: 14px;
+  font-weight: 100; }
+  .horizontal-card .h3 span {
     color: #999;
-    display: block;
-    font-weight: 400; }
+    font-size: 14px;
+    display: block; }
 .horizontal-card .card-text ul {
   padding: 0;
   margin-bottom: 0 !important; }
@@ -140,6 +136,35 @@ ul {
     margin-left: 15px;
     transition: .5s; }
     .horizontal-card .card-text ul li a:hover {
-      color: #e7e7e7; }
+      color: #e4e4e4; }
+
+@media screen and (max-width: 1200px) {
+  .horizontal-card .card-block .h3 {
+    font-size: 18px; }
+    .horizontal-card .card-block .h3 span {
+      font-size: 12px; }
+  .horizontal-card .card-block .card-text ul li a {
+    font-size: 14px; } }
+@media screen and (max-width: 992px) {
+  .horizontal-card .card-block {
+    margin: 0 auto;
+    text-align: center; }
+    .horizontal-card .card-block .h3 {
+      font-size: 26px;
+      margin: 0 40px 0 40px; }
+      .horizontal-card .card-block .h3 span {
+        font-size: 16px; }
+    .horizontal-card .card-block p {
+      margin: 0 40px 0 40px; }
+    .horizontal-card .card-block .card-text ul {
+      text-align: center; }
+      .horizontal-card .card-block .card-text ul li a {
+        font-size: 20px; } }
+@media screen and (max-width: 768px) {
+  .horizontal-card .card-block {
+    margin: 0 auto;
+    text-align: center; }
+    .horizontal-card .card-block .h3 {
+      font-size: 18px; } }
 
 /*# sourceMappingURL=team.css.map */

@@ -1,0 +1,91 @@
+.tabs-tours-first {
+  border: none !important; }
+  .tabs-tours-first .card-header {
+    border-bottom: 0 !important;
+    padding-top: 0;
+    padding-left: 10px; }
+    .tabs-tours-first .card-header .nav-item .nav-link {
+      padding: .8rem 1rem;
+      color: #999;
+      text-transform: uppercase;
+      font-size: 12px;
+      letter-spacing: 0.5px; }
+  .tabs-tours-first .card-body {
+    border: 1px solid #e7e7e7; }
+
+.tabs-tours-second .card-header {
+  width: 100%; }
+  .tabs-tours-second .card-header .nav-item {
+    width: 50%; }
+
+.tabs-sign-in .input-div {
+  position: relative; }
+  .tabs-sign-in .input-div input {
+    text-indent: 32px;
+    font-size: 14px;
+    height: 44px; }
+  .tabs-sign-in .input-div span {
+    position: absolute;
+    top: 17px;
+    left: 10%;
+    color: #999;
+    font-size: 12px; }
+  .tabs-sign-in .input-div .fa-envelope {
+    left: 5%; }
+.tabs-sign-in .card-body .form-control {
+  border: 1px solid #e7e7e7; }
+  .tabs-sign-in .card-body .form-control:focus {
+    box-shadow: none;
+    border: 1px solid #0087ff; }
+.tabs-sign-in .my-blue-button {
+  padding: 15px 60px;
+  font-weight: 100;
+  font-size: 16px;
+  transition: .5s; }
+  .tabs-sign-in .my-blue-button:hover {
+    box-shadow: 0px 0px 11px 0px #444;
+    text-decoration: none;
+    background-color: none; }
+.tabs-sign-in .sign-in-soc .h6 {
+  font-weight: 100;
+  font-size: 14px;
+  color: #404040; }
+.tabs-sign-in .sign-in-soc ul {
+  padding: 0; }
+  .tabs-sign-in .sign-in-soc ul li {
+    margin-right: 30px; }
+  .tabs-sign-in .sign-in-soc ul .fab, .tabs-sign-in .sign-in-soc ul .fas {
+    color: #fff;
+    font-size: 20px;
+    width: 68px;
+    height: 32px;
+    border-radius: 4px;
+    line-height: 32px; }
+  .tabs-sign-in .sign-in-soc ul .fb {
+    background-color: #2a4286; }
+  .tabs-sign-in .sign-in-soc ul .google {
+    background-color: #db402c; }
+  .tabs-sign-in .sign-in-soc ul .linkedin {
+    background-color: #005fa8; }
+  .tabs-sign-in .sign-in-soc ul .behance {
+    background-color: #0359ff; }
+  .tabs-sign-in .sign-in-soc ul .basket-ball {
+    background-color: #ea3371; }
+
+.vertical-tabs .card-header {
+  padding: 0;
+  border: none;
+  border-right: none;
+  border-bottom: none; }
+  .vertical-tabs .card-header .nav-item .nav-link {
+    color: #999;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 0.5px;
+    padding: 12px; }
+  .vertical-tabs .card-header ul {
+    padding: 0 10px; }
+.vertical-tabs .nav-tabs .nav-item.show .nav-link, .vertical-tabs .nav-tabs .nav-link.active {
+  border: none; }
+
+/*# sourceMappingURL=tabs.css.map */
