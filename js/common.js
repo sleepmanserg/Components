@@ -3,7 +3,7 @@ $('.multiple-items').slick({
   nextArrow: '<i class="fas fa-angle-right"></i>',
   prevArrow: '<i class="fas fa-angle-left"></i>',
   infinite: true,
-  speed: 2000,
+  speed: 1500,
   slidesToShow: 3,
   slidesToScroll: 3,
   responsive: [

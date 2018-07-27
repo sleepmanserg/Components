@@ -59,6 +59,9 @@ ul {
 
 .team-cards .bg-dark {
   border: none !important; }
+  .team-cards .bg-dark .card-img-top {
+    border-top-left-radius: 11px;
+    border-top-right-radius: 11px; }
 .team-cards .card-body {
   border: 1px solid #e7e7e7;
   border-bottom-right-radius: 8px;
@@ -76,10 +79,6 @@ ul {
   .team-cards .card-body .card-text p {
     margin: 0;
     font-size: 14px; }
-
-img {
-  border-top-left-radius: 11px;
-  border-top-right-radius: 11px; }
 
 .card-img-overlay {
   background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.01) 0%, rgba(0, 0, 0, 0.8) 100%);

@@ -70,7 +70,6 @@
 		&:hover {
 			box-shadow: 0px 0px 11px 0px #444;
 			text-decoration: none;
-			background-color: none;
 		}
 	}
 	.sign-in-soc {
@@ -82,7 +81,7 @@
 		ul {
 			padding: 0;
 			li {
-				margin-right: 30px;
+				margin: 15px;
 			}
 			.fab, .fas {
 				color: #fff;
@@ -139,10 +138,23 @@
 
 
 
-// @media screen and (max-width: 768px) {
-// 	.vertical-tabs .card-header ul {
-// 		padding: 0 10px;
-// 	}
-// }
+@media screen and (max-width: 768px) {
+	.tabs-tours-first .card-header .nav-item .nav-link {
+		padding: 10px 10px;
+	}
+	.tabs-sign-in .sign-in-soc ul li {
+		margin: 10px;
+	}
+}
+
+@media screen and (max-width: 576px) {
+	.tabs-tours-first .card-header .nav-item .nav-link {
+		border: none;
+	}
+	.tabs-tours-first .card-header .nav-item .nav-link {
+		padding: 10px 8px;
+	}
+}
+
 
 

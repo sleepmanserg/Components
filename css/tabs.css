@@ -44,8 +44,7 @@
   transition: .5s; }
   .tabs-sign-in .my-blue-button:hover {
     box-shadow: 0px 0px 11px 0px #444;
-    text-decoration: none;
-    background-color: none; }
+    text-decoration: none; }
 .tabs-sign-in .sign-in-soc .h6 {
   font-weight: 100;
   font-size: 14px;
@@ -53,7 +52,7 @@
 .tabs-sign-in .sign-in-soc ul {
   padding: 0; }
   .tabs-sign-in .sign-in-soc ul li {
-    margin-right: 30px; }
+    margin: 15px; }
   .tabs-sign-in .sign-in-soc ul .fab, .tabs-sign-in .sign-in-soc ul .fas {
     color: #fff;
     font-size: 20px;
@@ -87,5 +86,18 @@
     padding: 0 10px; }
 .vertical-tabs .nav-tabs .nav-item.show .nav-link, .vertical-tabs .nav-tabs .nav-link.active {
   border: none; }
+
+@media screen and (max-width: 768px) {
+  .tabs-tours-first .card-header .nav-item .nav-link {
+    padding: 10px 10px; }
+
+  .tabs-sign-in .sign-in-soc ul li {
+    margin: 10px; } }
+@media screen and (max-width: 576px) {
+  .tabs-tours-first .card-header .nav-item .nav-link {
+    border: none; }
+
+  .tabs-tours-first .card-header .nav-item .nav-link {
+    padding: 10px 8px; } }
 
 /*# sourceMappingURL=tabs.css.map */

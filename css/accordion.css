@@ -1,0 +1,90 @@
+.my-accordion .collapsing {
+  position: relative;
+  height: 0;
+  overflow: hidden;
+  -webkit-transition-property: height, visibility;
+  transition-property: height, visibility;
+  -webkit-transition-duration: .5s;
+  transition-duration: .5s;
+  -webkit-transition-timing-function: ease;
+  transition-timing-function: ease; }
+.my-accordion .collapsing.width {
+  -webkit-transition-property: width, visibility;
+  transition-property: width, visibility;
+  width: 0;
+  height: auto; }
+.my-accordion .my-collapse {
+  transition: .2s;
+  color: #333;
+  font-size: 14px; }
+  .my-accordion .my-collapse:hover, .my-accordion .my-collapse:focus {
+    text-decoration: none;
+    color: #333; }
+.my-accordion .card {
+  border: 1px solid #e7e7e7 !important;
+  border-radius: 4px; }
+.my-accordion .card-header {
+  padding: 5px;
+  border-bottom: 0;
+  color: #333;
+  cursor: pointer;
+  transition: .35s; }
+  .my-accordion .card-header:after {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f106";
+    margin-right: 10px; }
+.my-accordion .card-header.collapsed {
+  background: #fff; }
+  .my-accordion .card-header.collapsed:after {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f107"; }
+.my-accordion .card-header.collapsed:hover {
+  background-color: #f5f5f5; }
+.my-accordion .card-header:not(.collapsed) {
+  background-color: #0094ff; }
+  .my-accordion .card-header:not(.collapsed) .my-collapse {
+    color: #fff; }
+  .my-accordion .card-header:not(.collapsed):after {
+    color: #fff; }
+
+.my-accordion2 .card-header {
+  position: relative;
+  padding-left: 30px;
+  transition: .5s; }
+  .my-accordion2 .card-header:before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f05a";
+    color: #fff;
+    position: absolute;
+    left: 15px; }
+.my-accordion2 .card-header.collapsed {
+  transition: .35s;
+  padding-left: 0; }
+  .my-accordion2 .card-header.collapsed:hover .my-collapse:after {
+    margin-left: 10px;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f06d";
+    color: #333; }
+  .my-accordion2 .card-header.collapsed:before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: ""; }
+  .my-accordion2 .card-header.collapsed .my-collapse:after {
+    content: ""; }
+.my-accordion2 .hover-example.collapsed {
+  transition: .35s; }
+  .my-accordion2 .hover-example.collapsed:hover .my-collapse:after {
+    content: "" !important; }
+  .my-accordion2 .hover-example.collapsed:hover .my-collapse:before {
+    margin-right: 10px;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f111";
+    color: #333;
+    font-size: 8px; }
+
+/*# sourceMappingURL=accordion.css.map */
